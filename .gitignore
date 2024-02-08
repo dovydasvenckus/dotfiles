@@ -13,4 +13,3 @@ testes/libs/all
 'lua_upvalueid' returns NULL on invalid upvalue index
 
 temp
-lua

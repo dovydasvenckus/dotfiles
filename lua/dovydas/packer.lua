@@ -33,6 +33,10 @@ return require('packer').startup(function(use)
     use('mbbill/undotree')
     use('tpope/vim-fugitive')
     use('lewis6991/gitsigns.nvim')
+    use {
+        'nvim-lualine/lualine.nvim',
+        requires = { 'nvim-tree/nvim-web-devicons', opt = true }
+    }
     use('williamboman/mason.nvim')
     use {
         'VonHeikemen/lsp-zero.nvim',
